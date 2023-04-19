@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: open sans, sans-serifn;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header_box {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+  position: relative;
+  
+  z-index: 0;
+}
+
+.header_box::after {
+  content: '';
+  display: block;
+  
+  position: absolute;
+  background-color: #000000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  opacity: 0.6;
+  
+  z-index: -1;
+}
