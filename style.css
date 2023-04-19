@@ -45,3 +45,21 @@ ul {
   
   z-index: -1;
 }
+
+.header_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 28px;
+}
+
+.header_logo {
+  width: 179px;
+}
+
+.menu_list {
+  display: flex;
+}
